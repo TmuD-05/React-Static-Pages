@@ -1,10 +1,24 @@
-.main-body{
-   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* height: 100vh; full screen height */
-    margin: 0;
-    /* background-color: #f0f0f0; optional background */
-    /* text-align: center; */
+.main-body {
+  padding: 60px 30px;
+  background-image: url("/reactlogo (1).jpeg") ;
+  background-repeat:no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+
+  background-size: auto; /* OR background-size: contain/cover if needed */
+  background-clip: border-box; /* Ensures background is painted to the edge */
+}
+
+
+.list{
+    margin-top: 40px;
+    max-width: 400px;
+}
+.list > li::marker{
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
+.list > li{
+     margin-block: 15px;
+     font-size: 20px;
 }
