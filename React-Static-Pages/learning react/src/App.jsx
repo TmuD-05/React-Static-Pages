@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Header from "./header.jsx"
 import Navigation from './components/Navbar.jsx'
 import Main from './components/main.jsx'
+import Contacts from './components/contact.jsx'
 import './App.css'
 
 function App() {
@@ -11,8 +12,12 @@ function App() {
 
   return (
     <>
-     <Navigation/>
-     <Main/>
+     {/* <Navigation/>
+     <Main/> */}
+     <Contacts/>
+     <Contacts/>
+     <Contacts/>
+     <Contacts/>
     </>
   )
 }
